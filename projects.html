@@ -5,6 +5,32 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="assets/css/main.css" />
+
+<style>
+
+/* Section navigation */
+.project-nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+padding:0;
+margin-bottom:40px;
+}
+
+.project-nav a{
+text-decoration:none;
+font-weight:600;
+font-size:16px;
+border-bottom:2px solid transparent;
+padding-bottom:4px;
+}
+
+.project-nav a:hover{
+border-bottom:2px solid #2E86C1;
+}
+
+</style>
+
 </head>
 
 <body>
@@ -16,32 +42,76 @@
 
 <header class="major">
 <h1>My Projects</h1>
+<p>Portfolio of projects across Data Analytics, Machine Learning, and Data Engineering.</p>
+</header>
+
+<!-- Navigation Menu -->
+<nav class="project-nav">
+<ul>
+<li><a href="#data-analytics">Data Analytics</a></li>
+<li><a href="#machine-learning">Machine Learning</a></li>
+<li><a href="#data-engineering">Data Engineering</a></li>
+</ul>
+</nav>
+
+<!-- ================= DATA ANALYTICS ================= -->
+
+<header class="major" id="data-analytics">
+<h2>Data Analytics</h2>
 </header>
 
 <div class="posts">
 
 <article>
-<a href="#" class="image"><img src="images/pic01.jpg" alt=""></a>
+<a href="#" class="image">
+<img src="images/pic01.jpg" alt="">
+</a>
 <h3>Sales Performance Dashboard</h3>
-<p>Power BI dashboard analyzing sales trends.</p>
+<p>Power BI dashboard analyzing sales trends, revenue performance, and regional sales insights.</p>
 </article>
 
 <article>
-<a href="#" class="image"><img src="images/pic02.jpg" alt=""></a>
-<h3>Customer Behavior Analysis</h3>
-<p>Python project analyzing customer purchase patterns.</p>
-</article>
-
-<article>
-<a href="#" class="image"><img src="images/pic03.jpg" alt=""></a>
-<h3>Data Cleaning Automation</h3>
-<p>Python scripts used to clean and prepare raw datasets.</p>
-</article>
-
-<article>
-<a href="#" class="image"><img src="images/pic04.jpg" alt=""></a>
+<a href="#" class="image">
+<img src="images/pic04.jpg" alt="">
+</a>
 <h3>Operational Performance Report</h3>
-<p>SQL queries and dashboards tracking KPIs.</p>
+<p>SQL-based analysis used to track operational KPIs and business performance metrics.</p>
+</article>
+
+</div>
+
+<!-- ================= MACHINE LEARNING ================= -->
+
+<header class="major" id="machine-learning">
+<h2>Machine Learning</h2>
+</header>
+
+<div class="posts">
+
+<article>
+<a href="#" class="image">
+<img src="images/pic02.jpg" alt="">
+</a>
+<h3>Customer Behavior Prediction</h3>
+<p>Machine learning model analyzing customer purchase behavior to predict future buying patterns.</p>
+</article>
+
+</div>
+
+<!-- ================= DATA ENGINEERING ================= -->
+
+<header class="major" id="data-engineering">
+<h2>Data Engineering</h2>
+</header>
+
+<div class="posts">
+
+<article>
+<a href="#" class="image">
+<img src="images/pic03.jpg" alt="">
+</a>
+<h3>Data Cleaning Automation</h3>
+<p>Python scripts developed to automate cleaning, transformation, and preparation of raw datasets.</p>
 </article>
 
 </div>
